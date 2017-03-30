@@ -26,6 +26,18 @@ nav a:hover{
 	transition-duration: 1.3s;
 }
 
+footer a{
+	text-decoration: none;
+	color: $primary-font-color;
+	transition-duration: 1.5s;
+
+}
+
+footer a:hover{
+	color: #6EFFEB;
+	transition-duration: 1.3s;
+}
+
 #master{
 	width: 100%;
 	margin: 0 auto;
@@ -38,14 +50,13 @@ nav{
 	margin: auto;
 	top: 0px;
 	position: fixed;
-	right: 0;
 }
 
 #nav-content{
 	width: 90%;
 	margin: 0 auto;
 	background-color: $div-conatiner-check;
-	overflow: auto;
+	
 }
 
 #nav-logo{
@@ -64,12 +75,27 @@ nav{
 	margin-top: $nav-height;
 }
 
+.absolute-text{
+	position: absolute;
+	color: white;
+	top: 0px;
+	margin-top: 240px;
+	width: 100px;
+	font-size: 20px;
+	background-color: black;
+	padding-right: 70px;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+
+}
+
 footer{
 	background-color: $div-conatiner-check;
 	width: $nav-width;
-	height: $nav-height;
 	position: fixed;
-	bottom: 0px;
+	bottom: $nav-height;
 	right: 0;
 }
 

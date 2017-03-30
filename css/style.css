@@ -14,6 +14,15 @@ nav a:hover {
   color: #6EFFEB;
   transition-duration: 1.3s; }
 
+footer a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 1.5s; }
+
+footer a:hover {
+  color: #6EFFEB;
+  transition-duration: 1.3s; }
+
 #master {
   width: 100%;
   margin: 0 auto; }
@@ -24,14 +33,12 @@ nav {
   width: 100%;
   margin: auto;
   top: 0px;
-  position: fixed;
-  right: 0; }
+  position: fixed; }
 
 #nav-content {
   width: 90%;
   margin: 0 auto;
-  background-color: none;
-  overflow: auto; }
+  background-color: none; }
 
 #nav-logo {
   font-size: 20px;
@@ -47,12 +54,24 @@ nav {
   font-weight: 300;
   margin-top: 50px; }
 
+.absolute-text {
+  position: absolute;
+  color: white;
+  top: 0px;
+  margin-top: 240px;
+  width: 100px;
+  font-size: 20px;
+  background-color: black;
+  padding-right: 70px;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
 footer {
   background-color: none;
   width: 100%;
-  height: 50px;
   position: fixed;
-  bottom: 0px;
+  bottom: 50px;
   right: 0; }
 
 #footer-content {
@@ -88,5 +107,3 @@ footer {
 .mid-container-content img {
   width: 100%;
   height: auto; }
-
-/*# sourceMappingURL=style.css.map */
