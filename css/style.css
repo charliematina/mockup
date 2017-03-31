@@ -1,13 +1,13 @@
 body {
-  background-color: #0B1017;
+  background-color: #93dbc9;
   margin: auto;
   width: 100%;
-  color: white;
+  color: black;
   font-family: "Oswald	", sans-serif; }
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: black;
   transition-duration: 1.5s; }
 
 nav a:hover {
@@ -16,7 +16,7 @@ nav a:hover {
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: black;
   transition-duration: 1.5s; }
 
 footer a:hover {
@@ -41,15 +41,15 @@ nav {
   background-color: none; }
 
 #nav-logo {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 300;
   letter-spacing: 2px;
   float: left;
   margin-top: 50px; }
 
 #nav-menu {
   float: right;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 6px;
   font-weight: 300;
   margin-top: 50px; }
@@ -80,13 +80,13 @@ footer {
   margin: 0 auto; }
 
 #footer-left-link {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   letter-spacing: 6px;
   float: left; }
 
 #footer-right-link {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   letter-spacing: 6px;
   float: right; }
@@ -107,3 +107,5 @@ footer {
 .mid-container-content img {
   width: 100%;
   height: auto; }
+
+/*# sourceMappingURL=style.css.map */
