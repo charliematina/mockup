@@ -5,10 +5,55 @@ $nav-font-spacing : 6px;
 $nav-font-size : 16px;
 $nav-height : 50px;
 $div-conatiner-check : none;
+$main-color : #93dbc9;
 $nav-width : 100%;
+$second-color : #93dbc9;
+
+
+input[type=text] {
+	font-size: $nav-font-size;
+	letter-spacing: $nav-font-spacing;
+	color: $primary-font-color;
+	border: none;
+	background-color: $main-color;
+	text-align: right;
+	outline: none;	
+}
+
+#floating-text{
+	font-size: $nav-font-size;
+	letter-spacing: 2px;
+	font-weight: 100px;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 0px;
+	color: $primary-font-color;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari */
+    transform: rotate(-90deg); /* Standard syntax */
+}
+
+.arrow img{	
+	width: 40px;
+	position: absolute;
+	right: 80px;
+	margin-top: 70px;
+}
+
+.arrow a img{
+	-webkit-transition: width 200ms;
+
+
+}
+
+.arrow a img:hover{
+	width: 45px;
+
+}
+
 
 body{
-	background-color: #93dbc9;
+	background-color: $main-color;;
 	margin: auto;
 	width: 100%;
 	color: $primary-font-color;
@@ -29,8 +74,6 @@ nav a:hover{
 footer a{
 	text-decoration: none;
 	color: $primary-font-color;
-	transition-duration: 1.5s;
-
 }
 
 footer a:hover{
@@ -75,20 +118,23 @@ nav{
 	margin-top: $nav-height;
 }
 
-.absolute-text{
-	position: absolute;
-	color: white;
-	top: 0px;
-	margin-top: 240px;
-	width: 100px;
-	font-size: 20px;
-	background-color: black;
-	padding-right: 70px;
-	padding-left: 40px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	
+.center-container{
+	width: 100%;
+	background-color: none;
+	margin-top: 300px;
+}
 
+.absolute-text{
+	text-align: center;
+	color: $primary-font-color;
+	width: 100%;
+	font-size: 100px;
+	font-weight: 900;
+}
+
+.absolute-text p{
+	font-size: 20px;
+	font-weight: 300;
 }
 
 footer{
@@ -120,18 +166,16 @@ footer{
 }
 
 #mid-container{
+	float: left;
 	width: 100%;
-	margin-top: 100px;
-	height: auto;
-	background-color: none;
+	margin-top: 0px;
+	background-color: red;
 }
 
 .mid-container-content{
 	width: 50%;
-	height: auto;
 	margin: 0 auto;
-	background-color: none;
-	padding-bottom: 50px;
+	background-color: blue;
 }
 
 .mid-container-content img{
