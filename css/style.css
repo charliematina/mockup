@@ -1,11 +1,11 @@
-input[type=text] {
-  font-size: 16px;
-  letter-spacing: 6px;
-  color: black;
-  border: none;
-  background-color: #93dbc9;
-  text-align: right;
-  outline: none; }
+#overlay {
+  width: 100%;
+  height: 1000px;
+  background-color: white;
+  opacity: 0.8;
+  display: none;
+  position: absolute;
+  top: 0px; }
 
 #floating-text {
   font-size: 16px;
@@ -47,8 +47,8 @@ nav a {
   transition-duration: 1.5s; }
 
 nav a:hover {
-  color: #6EFFEB;
-  transition-duration: 1.3s; }
+  opacity: 0.4;
+  transition-duration: 1s; }
 
 footer a {
   text-decoration: none;
@@ -143,5 +143,3 @@ footer {
 .mid-container-content img {
   width: 100%;
   height: auto; }
-
-/*# sourceMappingURL=style.css.map */
