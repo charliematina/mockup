@@ -1,11 +1,33 @@
 #overlay {
   width: 100%;
   height: 1000px;
-  background-color: white;
-  opacity: 0.8;
+  background-color: #93dbc9;
+  opacity: 0.9;
   display: none;
-  position: absolute;
+  position: fixed;
+  z-index: 1;
   top: 0px; }
+
+#overlay form {
+  width: 90%;
+  margin: 0 auto; }
+
+#overlay input {
+  width: 100%;
+  height: 200px;
+  background-color: #93dbc9;
+  border: none;
+  outline: none;
+  font-size: 100px; }
+
+#form-icons {
+  width: 90%;
+  margin: 0 auto;
+  background-color: none; }
+
+#overlay img {
+  width: 50px;
+  padding-right: 20px; }
 
 #floating-text {
   font-size: 16px;
@@ -55,11 +77,12 @@ footer a {
   color: black; }
 
 footer a:hover {
-  color: #6EFFEB;
-  transition-duration: 1.3s; }
+  opacity: 0.4;
+  transition-duration: 1s; }
 
 #master {
   width: 100%;
+  opacity: 1;
   margin: 0 auto; }
 
 nav {
@@ -143,3 +166,5 @@ footer {
 .mid-container-content img {
   width: 100%;
   height: auto; }
+
+/*# sourceMappingURL=style.css.map */
